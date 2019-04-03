@@ -1,0 +1,275 @@
+
+/*header properties and values*/
+header{
+    
+    background-size: cover;
+    background-position: center;
+    height: 40px;
+    background-color:white;
+    border-top: 4px solid black;
+    border-bottom: 1px solid black;
+
+
+   
+
+}
+/*header contents*/
+.main {
+
+float: right;
+list-style: none;
+margin-top: 10px;
+margin-right: 200px;
+
+}
+/*sub contents of the header*/
+.main li {
+
+display: inline-block;
+margin-left: -60px;
+margin-right: 100px;
+color: rgb(119, 107, 107);  
+font-size: 10px; 
+}
+
+    
+
+
+/*first title*/
+
+.name{
+display: grid;
+float: left;
+list-style: none;
+margin-left: 350px;
+margin-top: 10px;
+color: black;
+
+
+}
+
+/*title cont*/
+h2{
+
+background-color:purple;   
+width: 220px;
+color: white;
+margin-left: 390px;
+height: 25px;
+margin-top: 30px;
+font-size: 1vw;
+
+}
+
+/*font text properteis*/
+.prg{
+color: black;
+margin-left: 390px;
+}
+
+/*img values and proper..*/
+img{
+
+float: right;
+height: 200px;
+margin-right: 375px;
+height: auto;
+width: 200px;
+border-radius: 100%;
+margin-top: -180px;
+
+
+}
+
+/*big tablet to 1200px(widths smaller that the 1140px row*/
+
+@media only screen and(max-width:1200px)
+{
+
+}
+
+@media only screen and(max-width:1023px)
+{
+
+}
+/*small phones to small tablets:from 481px to 767px*/
+
+@media only screen and(max-width:767px)
+{
+
+}
+
+/*small phones:from 0to 480px*/
+
+@media only screen and(max-width:480px)
+{
+
+}
+/*next title of next section*/
+h1{
+text-align: center;
+font-size: 3vw;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(61, 61, 61);
+}
+/*first section */
+
+.section-prgphs{
+background-color: rgba(165, 187, 209, 0.336);
+height: 250px;
+padding: 10px;
+}
+
+/*second section contents*/
+.section-prg2
+{
+height:350px;
+margin-top: 10px;
+background-color:white;
+
+}
+
+
+/*pictures of the second section*/
+
+.pictures{
+
+display: inline-block;
+padding: 10px;
+
+}
+
+/* picture 1*/
+.geni {
+height: 100px;
+width: 100px;
+margin-top: 10px;
+margin-left: 50px;
+margin-right: 10px;
+
+}
+/* picture 2*/
+.gag{
+height: 100px;
+width: 100px;
+margin-top: 10px;
+margin-left: 50px;
+margin-right: 10px;
+}
+/* picture 3*/
+.fun{
+height: 100px;
+width: 100px;
+margin-top: 10px;
+margin-left: 50px;
+margin-right: 10px;
+}
+/* picture 4*/
+.gylid{
+height: 100px;
+width: 100px;
+margin-left: 400px;
+margin-top: 10px;
+margin-right: 10px;
+
+
+}
+
+/* picture 5*/
+.pic{
+
+display: inline-block;
+padding: 10px;
+
+}
+/* picture 6*/
+.new {
+height: 100px;
+width: 100px;
+margin-top: 10px;
+margin-left: 50px;
+margin-right: 10px;
+
+}
+/* picture 7*/
+.right{
+height: 100px;
+width: 100px;
+margin-top: 10px;
+margin-left: 50px;
+margin-right: 10px;
+}
+/* picture 8*/
+.be{
+height: 100px;
+width: 100px;
+margin-top: 10px;
+margin-left: 50px;
+margin-right: 10px;
+}
+/* picture 9*/
+.bi{
+height: 100px;
+width: 100px;
+margin-left: 400px;
+margin-top: 10px;
+margin-right: 10px;
+
+
+}
+/* footer proper....*/
+
+.ftr{
+background-color: black;
+height: 130px;
+color: white;
+margin-top: 30px;
+
+}
+/*footer contents*/
+.pftr{
+background-color: azure;
+color: black;
+width: 60px;
+float: left;
+margin-top:-11px;
+
+}
+
+/* line inside footer proper..*/
+hr{
+width: 650px;
+float: left;
+border-color: rgb(145, 129, 129);
+}
+
+/* text inside footer*/
+.pap{
+text-align: center;
+float: left;
+margin-top: 5px;
+color: rgb(151, 140, 140);  
+}
+
+/*part of  text inside footer*/
+.dul{
+color: rgb(151, 140, 140);  
+float: left;
+margin-top: -25px;
+
+}
+
+/* text inside footer*/
+.comon{
+margin-left: 350px;
+padding-top: 20px;
+color: rgb(151, 140, 140);  
+}
+
+/* text inside footer*/
+.another{
+color: rgb(151, 140, 140);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+margin-top:-60px;
+float: right;
+margin-right: 300px;
+}
